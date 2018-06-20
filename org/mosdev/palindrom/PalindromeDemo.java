@@ -13,7 +13,7 @@ public class PalindromeDemo {
             
             // Is Palindrom?
             if (PalindromTest.isPalindrome(rawInput)) {
-                // Yes, output lineNumber and Raw Sentence without ?!., because by splitting it will removed.
+                // Yes, output lineNumber and Raw Sentence without ?!., because by splitting it were removed.
                 System.out.println(sentenceTool.getCurrentLineNumber() + " " + rawInput);
             }
         }
